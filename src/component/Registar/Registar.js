@@ -2,13 +2,13 @@ import React from "react";
 
 const Registar = () => {
   return (
-    <div>
+    <div style={{ margin: "20px" }}>
       <form>
         <input type="text" name="" id="" placeholder="Enter your name" />
         <br />
         <input type="email" name="" id="" placeholder="Enter your Email" />
         <br />
-        <br />
+
         <input
           type="password"
           name=""

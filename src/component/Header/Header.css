@@ -1,3 +1,16 @@
+nav {
+  background-color: rgb(219, 225, 231);
+  padding: 20px 0;
+}
 nav a {
   margin-right: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(32, 20, 20, 0.989);
+}
+nav a:hover {
+  color: goldenrod;
+}
+button {
+  cursor: pointer;
 }

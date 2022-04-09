@@ -10,7 +10,6 @@ const Login = () => {
       <form>
         <input type="email" name="" id="" placeholder="Enter your Email" />
         <br />
-        <br />
         <input
           type="password"
           name=""
