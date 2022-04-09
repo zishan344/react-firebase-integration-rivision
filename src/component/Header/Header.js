@@ -12,6 +12,7 @@ const Header = () => {
       <nav>
         <Link to="/home">Home</Link>
         <Link to="/Product">Product</Link>
+        {user?.uid && <Link to="/vip">Vip</Link>}
         <Link to="/order">Order</Link>
         <Link to="/register">Register</Link>
         <span style={{ marginRight: "10px" }}>{user?.displayName}</span>
